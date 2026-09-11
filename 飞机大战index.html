@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>NEON STRIKE — 霓虹突袭</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="game" width="480" height="720"></canvas>
+    <div id="hint">点击 / 按 任一键 开始</div>
+  </div>
+
+  <!-- 按依赖顺序加载：经典 script 标签（支持 file:// 双击即玩） -->
+  <script src="js/config.js"></script>
+  <script src="js/engine/events.js"></script>
+  <script src="js/engine/pool.js"></script>
+  <script src="js/engine/storage.js"></script>
+  <script src="js/engine/input.js"></script>
+  <script src="js/engine/audio.js"></script>
+  <script src="js/engine/renderer.js"></script>
+  <script src="js/engine/asset.js"></script>
+  <script src="js/data/weapons.js"></script>
+  <script src="js/data/passives.js"></script>
+  <script src="js/data/enemies.js"></script>
+  <script src="js/data/bosses.js"></script>
+  <script src="js/data/waves.js"></script>
+  <script src="js/data/upgrades.js"></script>
+  <script src="js/systems/difficulty.js"></script>
+  <script src="js/systems/collision.js"></script>
+  <script src="js/systems/bulletPattern.js"></script>
+  <script src="js/systems/dropper.js"></script>
+  <script src="js/systems/spawner.js"></script>
+  <script src="js/entities/Particle.js"></script>
+  <script src="js/entities/Bullet.js"></script>
+  <script src="js/entities/Gem.js"></script>
+  <script src="js/entities/Pickup.js"></script>
+  <script src="js/entities/Enemy.js"></script>
+  <script src="js/entities/Boss.js"></script>
+  <script src="js/entities/Player.js"></script>
+  <script src="js/ui/Scene.js"></script>
+  <script src="js/ui/MainMenu.js"></script>
+  <script src="js/ui/Hud.js"></script>
+  <script src="js/ui/UpgradePanel.js"></script>
+  <script src="js/ui/PauseMenu.js"></script>
+  <script src="js/ui/GameOver.js"></script>
+  <script src="js/engine/Game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
